@@ -1,6 +1,7 @@
 # Pokemons
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
+Projeto simples utilizando algumas features do angular, como resolvers, route-guards, services, http, componetização, etc...
+https://angulardex.netlify.app/
 
 ## Development server
 
