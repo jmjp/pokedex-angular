@@ -1,0 +1,33 @@
+.card{
+    width: 120px;
+    height: 150px;
+    margin: 3px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 8px;
+}
+.card:hover{
+   animation: img-hover forwards 0.8s;
+   transition: ease-out 0.8s;
+}
+.bg-card{
+    background-image: linear-gradient(to top, #7f74ce, #1b2838, #121b25);
+}
+
+.overflow-card {
+    position: absolute;
+    opacity: 1;
+}
+
+
+@keyframes img-hover {
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(0.95);
+    }
+}
